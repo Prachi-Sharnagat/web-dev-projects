@@ -1,4 +1,4 @@
-// 
+
 const modal = document.querySelector('#shareModal');
 const overlayactive = document.querySelector('.overlay');
 

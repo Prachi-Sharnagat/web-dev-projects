@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1>Password Generator</h1>
+        <div class="display-container" >
+            <!-- here data-passwprdDisplay is custom attribute always starts with data- -->
+            <input readonly placeholder="Password" class="display-password" data-passwordDisplay>
+            <button>
+                <span data-copying></span>
+                <img src="image/copy.svg" alt="copy-image" width="15px" height="15px">
+            </button>
+        </div>
+
+        <div class="input-container">
+            <div class="length-conatainer">
+                 <div>Password length</div>
+           `     <div data-length>0</div>
+            </div>
+           <input type="range =" min="1" max="20" class="slider">
+
+
+
+        </div>
+
+
+
+
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

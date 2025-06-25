@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        /* inline styling */
+    .container{
+        width:350px;
+        height: 350px;
+        border-radius: 10px;
+        border:4px solid #bfbfbf;
+        box-shadow: 0 0 0 0.1px black
+    }
+
+    .course-image{
+        border-radius: 10px;
+       
+    }
+
+
+
+    .style-button{
+        border-radius: 4px;
+        background-color:#1DD1A1;
+        border: 1px transparent ;
+        padding: 6px;
+        font-weight: 700;
+        color: white
+        ;
+    }
+    .pricing{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="image.png" alt="course-image" width="340px" height="200px" class="image">
+        <h2>Web Development Master Course</h2>
+        <h2>@dot Batch</h2>
+        <hr>
+        <div class="pricing">
+            <p class="style-price">₹4500</p>
+            <strike class="style-strike">₹6999</strike>
+            <button class="style-button">42% off</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
